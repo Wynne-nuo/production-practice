@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #爬虫主程序文件
+#连接本地仓库和github
 #导入scrapy包
 import scrapy
 #导入requests包
