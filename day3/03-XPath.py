@@ -1,0 +1,2 @@
+import scrapy
+from doubanmovie.items import DoubanmovieItem

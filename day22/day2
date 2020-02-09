@@ -1,0 +1,35 @@
+open：a 追加文件
+r =读
+w =写
+fileDir = os.path.
+
+#序列化操作
+1、python对json文件进行操作{“key”：value} key值必须是字符串 [{},{},{}]
+2、python对csv数据操作
+    姓名，年龄，电话  //表头
+    张三，18,13999
+    李四，22,15666
+
+pickle 方法
+    pickle.dump(obj,file,[,proyocol])  对象序列化操作函数
+    pickle.load(file) 将file对象序列化读取，即反序列化
+    pickle.dumps(obj,[,protocol]) 将对象转化成string字符串类型
+    pickle.loads(string) 从string中读取序列化对象
+
+json方法“key：value”
+    单对象 {‘key’：‘value’，‘key’：‘value’}
+    多对象 [{‘key’：‘value’，‘key’：‘value’}
+        {‘key’：‘value’，‘key’：‘value’}
+        {‘key’：‘value’，‘key’：‘value’}]
+    常用函数：
+        json.dumps() 完成数据对象的json格式序列化操作，返回一个json串对象
+        json.dump() 完成对json数据的反序列化，返回一个原始对象
+
+csv 方法
+    dictionary or read and write
+
+excel文件模块
+    写入和读取
+
+操作mysql数据库
+    用户名+密码+数据库
