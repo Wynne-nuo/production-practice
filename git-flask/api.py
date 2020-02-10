@@ -7,7 +7,7 @@ from scrapy import cmdline
 import scrapy,shlex,re,tempfile,logging,json,tempfile,time,csv,tempfile
 from time import sleep
 
-##test2
+##test3
 # print("----------this is api.py-------------------")
 # sys.path.append(r'D:\codeSavePath\production practice\DoubanMovie\DoubanMovie')
 # import main,pipelines
